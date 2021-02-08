@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Spring</artifactId>
+        <groupId>org.example</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>SpringFramework</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>Spring01</module>
+        <module>Spring02-HelloSpring</module>
+        <module>Spring03-Ioc</module>
+        <module>Spring04-DI</module>
+        <module>Spring05-auto</module>
+        <module>Spring06-anno</module>
+        <module>Spring07-appConf</module>
+        <module>Spring08-proxy</module>
+        <module>Spring09-Aop</module>
+        <module>Spring10-Mybatis</module>
+        <module>Spring11-Dproxy</module>
+        <module>Spring-12-Aspectj</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>5.3.3</version>
+        </dependency>
+    </dependencies>
+</project>

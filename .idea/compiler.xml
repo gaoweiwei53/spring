@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Spring02-HelloSpring" />
+        <module name="SpringMVC-01-servlet" />
+        <module name="SpringMVC-04-receiveParam" />
+        <module name="Spring05-auto" />
+        <module name="Spring04-DI" />
+        <module name="Spring06-anno" />
+        <module name="Spring08-proxy" />
+        <module name="Spring11-Dproxy" />
+        <module name="SpringMVC-03-RequestMapping" />
+        <module name="Spring01" />
+        <module name="SpringMVC-07-path" />
+        <module name="SpringMVC-09-forward-redirect" />
+        <module name="springboot01-hello" />
+        <module name="SpringMVC-05-return" />
+        <module name="Spring09-Aop" />
+        <module name="Spring07-appConf" />
+        <module name="Spring10-Mybatis" />
+        <module name="SpringMVC-08-ssm" />
+        <module name="Spring03-Ioc" />
+        <module name="SpringMVC-02-helloSpringMVC" />
+        <module name="SpringMVC-06-urlPattern" />
+        <module name="Spring-12-Aspectj" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringBoot" target="11" />
+      <module name="Springboot" target="11" />
+      <module name="springboot01-hello" target="11" />
+      <module name="SpringMVC-04-recevieParam" target="11" />
+      <module name="SpringMVC-07-json" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

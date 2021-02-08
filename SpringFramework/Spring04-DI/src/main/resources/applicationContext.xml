@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="address" class="org.example.pojo.Address">
+        <property name="address" value="Shanghai"/>
+    </bean>
+    <bean id="student" class="org.example.pojo.Student">
+        <!-- 1 normal value       -->
+        <property name="name" value="Spring"/>
+
+        <!-- 2 bean ref     -->
+        <property name="address" ref="address"/>
+
+        <!-- 3 Array        -->
+        <property name="books">
+            <array>
+                <value>Little Princess</value>
+                <value>Bird</value>
+                <value>Dog</value>
+            </array>
+        </property>
+
+        <property name="hobbys">
+            <list>
+                <value>Listen to music</value>
+                <value>Coding</value>
+                <value>Play football</value>
+            </list>
+        </property>
+
+        <property name="card">
+            <map>
+                <entry key="ID card" value="123456"/>
+                <entry key="Car Card" value="654321"/>
+            </map>
+        </property>
+
+        <property name="games">
+            <set>
+                <value>LOL</value>
+                <value>COC</value>
+            </set>
+        </property>
+        <property name="wife">
+            <null/>
+        </property>
+
+        <property name="info">
+            <props>
+                <prop key="StudentID">1971669</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>
